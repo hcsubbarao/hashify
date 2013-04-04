@@ -1,4 +1,4 @@
-require 'spec/spec_helper'
+require 'spec_helper'
 
 describe "Basic object", "from_hash" do
   it "should convert from a hash" do

@@ -1,4 +1,4 @@
-require 'spec/spec_helper'
+require 'spec_helper'
 
 describe "Basic object", "auto hashify" do
   it "should convert into a hash" do
@@ -11,7 +11,7 @@ describe "Basic object", "auto hashify" do
     
     t = test.new
     t.prop1 = 'testing'
-    t.to_hash.should == {:prop1 => 'testing'}
+    t.to_hash.should == {:prop1=>"testing", "!".to_sym => false}
   end
 
   it "should convert from a hash" do

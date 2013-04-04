@@ -1,4 +1,4 @@
-require 'spec/spec_helper'
+require 'spec_helper'
 
 describe "Basic object", "conversions" do
   it "should run conversions" do
